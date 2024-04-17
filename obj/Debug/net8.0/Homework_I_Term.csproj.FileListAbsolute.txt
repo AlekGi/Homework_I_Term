@@ -1,0 +1,15 @@
+G:\Обучение\Homework\Homework_I_Term\bin\Debug\net8.0\Homework_I_Term.exe
+G:\Обучение\Homework\Homework_I_Term\bin\Debug\net8.0\Homework_I_Term.deps.json
+G:\Обучение\Homework\Homework_I_Term\bin\Debug\net8.0\Homework_I_Term.runtimeconfig.json
+G:\Обучение\Homework\Homework_I_Term\bin\Debug\net8.0\Homework_I_Term.dll
+G:\Обучение\Homework\Homework_I_Term\bin\Debug\net8.0\Homework_I_Term.pdb
+G:\Обучение\Homework\Homework_I_Term\obj\Debug\net8.0\Homework_I_Term.GeneratedMSBuildEditorConfig.editorconfig
+G:\Обучение\Homework\Homework_I_Term\obj\Debug\net8.0\Homework_I_Term.AssemblyInfoInputs.cache
+G:\Обучение\Homework\Homework_I_Term\obj\Debug\net8.0\Homework_I_Term.AssemblyInfo.cs
+G:\Обучение\Homework\Homework_I_Term\obj\Debug\net8.0\Homework_I_Term.csproj.CoreCompileInputs.cache
+G:\Обучение\Homework\Homework_I_Term\obj\Debug\net8.0\Homework_I_Term.sourcelink.json
+G:\Обучение\Homework\Homework_I_Term\obj\Debug\net8.0\Homework_I_Term.dll
+G:\Обучение\Homework\Homework_I_Term\obj\Debug\net8.0\refint\Homework_I_Term.dll
+G:\Обучение\Homework\Homework_I_Term\obj\Debug\net8.0\Homework_I_Term.pdb
+G:\Обучение\Homework\Homework_I_Term\obj\Debug\net8.0\Homework_I_Term.genruntimeconfig.cache
+G:\Обучение\Homework\Homework_I_Term\obj\Debug\net8.0\ref\Homework_I_Term.dll
