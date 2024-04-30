@@ -1,2 +1,45 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Задача: Написать программу, которая из имеющегося массива строк формирует новый массив из строк, 
+// длина которых меньше, либо равна 3 символам. 
+// Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма. 
+// При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
+//------------------------------------------------------------------------------------------------
+// Перевожу строку в массив
+string[] SplitString(string input)
+{
+    string[] array = input.Split(' ');
+    return array;
+}
+// Сразу пишу функцию для вывода "печать" на экран
+void PrintArray(string[] array)
+{
+    System.Console.Write("[ ");
+    for (int i = 0; i < array.Length; i++)
+    {
+        System.Console.Write(array[i] + " "); 
+    }
+    System.Console.Write("]");
+}
+// Создаем новый массив, исключая лишние "слова и символы"
+string[] NewArray(string[] array)
+{
+    var result = new string[array.Length];
+    var realSize = 0;
+    foreach (var value in array)
+    {
+        if (value.Length <= 3)
+        {
+            result[realSize] = value;
+            realSize++;
+        }
+    }
+    return result;
+}
+//-------------------------------------------------------------
+Console.WriteLine("Напиши что-нибудь на английском ;-)");   //Выводим на экран, чтобы пользователь понял, что нужно сделать ввод из клавиатуры
+string input = Console.ReadLine();      //Считываем ввод из клавиатуры "строку"
+string[] array = SplitString(input);    //Переводим строку в массив, используя функцию SplitString
+PrintArray(array);                      //Дополнительно вывел на экран созданный массив, чтобы убедиться, что перевод из строки в массив работает
+Console.WriteLine();                    
+Console.WriteLine("Вывели в массив только символы, которые меньше или равны трем символам:");
+string[] array2 = NewArray(array);      //Делаем новый массив на основе созданного, но убираем "лишние" значения с помощью функции NewArray
+PrintArray(array2);                     //Выводим на экран получившийся результат
